@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brunch Club RSVP Kit</title>
+  <!-- External, read-only design tokens (Open Color). Each theme's accent token is defined here. -->
+  <link rel="stylesheet" href="../open-color/open-color.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <header class="topbar">
+    <p class="eyebrow">Brunch Club</p>
+    <h1>RSVP Kit</h1>
+    <p class="intro">Reserve a seat at this weekend&rsquo;s brunch themes.</p>
+  </header>
+  <main>
+    <p id="result-count" aria-live="polite">Loading themes&hellip;</p>
+    <div id="theme-grid" class="theme-grid"></div>
+    <p id="error" class="error" role="alert" hidden></p>
+  </main>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

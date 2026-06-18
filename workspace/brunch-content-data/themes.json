@@ -1,0 +1,41 @@
+[
+  {
+    "id": "garden-citrus-table",
+    "name": "Garden Citrus Table",
+    "tagline": "Sun-warmed mornings with grapefruit and herbs.",
+    "host": "Mara Lindqvist",
+    "capacity": 12,
+    "menu": [
+      "Grapefruit and mint salad",
+      "Ricotta toast with thyme honey",
+      "Blood orange spritz"
+    ],
+    "accent": "--oc-orange-3"
+  },
+  {
+    "id": "cozy-cocoa-corner",
+    "name": "Cozy Cocoa Corner",
+    "tagline": "Slow brunch with deep cocoa and warm spice.",
+    "host": "Daniel Okafor",
+    "capacity": 8,
+    "menu": [
+      "Dark cocoa banana bread",
+      "Cinnamon oat porridge",
+      "Spiced mocha"
+    ],
+    "accent": "--oc-orange-9"
+  },
+  {
+    "id": "harbor-greens-brunch",
+    "name": "Harbor Greens Brunch",
+    "tagline": "Crisp, briny plates by the water.",
+    "host": "Sofia Reyes",
+    "capacity": 16,
+    "menu": [
+      "Cucumber dill tartine",
+      "Smoked trout bowl",
+      "Sparkling sea-salt lemonade"
+    ],
+    "accent": "--oc-teal-4"
+  }
+]

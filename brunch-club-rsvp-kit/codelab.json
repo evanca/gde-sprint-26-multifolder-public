@@ -1,0 +1,30 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2026-06-18T18:55:06+03:00",
+  "id": "brunch-club-rsvp-kit",
+  "duration": 47,
+  "title": "Map and Update a Cross-Repository Brunch Kit with Multi-Folder Project Context",
+  "authors": "evanca",
+  "summary": "Use an Antigravity 2.0 multi-folder Project, a custom read-only boundary, and parallel scout subagents to add one brunch theme across five repos while conforming to a cloned external design-system repo you are not allowed to change.",
+  "source": "/Users/ivanna/StudioProjects/2026 The Agentic Architect Sprint by Google/codelab-03-brunch-club-rsvp-kit/codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "antigravity",
+    "web"
+  ],
+  "tags": [
+    "antigravity-2.0",
+    "cross-repository",
+    "dependency-mapping",
+    "multi-folder",
+    "web"
+  ],
+  "feedback": "https://github.com/evanca/gde-sprint-26-multifolder-public/issues",
+  "url": "brunch-club-rsvp-kit"
+}

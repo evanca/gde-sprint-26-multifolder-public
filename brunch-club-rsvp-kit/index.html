@@ -1,0 +1,475 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <!-- seo:stamped -->
+  <meta name="description" content="Map and update five repos at once with an Antigravity 2.0 multi-folder Project and a read-only boundary, respecting a cloned design system you cannot edit.">
+  <meta name="keywords" content="antigravity-2.0, multi-folder, cross-repository, dependency-mapping, web">
+  <meta name="author" content="evanca">
+  <link rel="canonical" href="https://happycode.studio/gde-sprint-26-multifolder-public/brunch-club-rsvp-kit/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Map and Update a Cross-Repository Brunch Kit with Multi-Folder Project Context">
+  <meta property="og:description" content="Map and update five repos at once with an Antigravity 2.0 multi-folder Project and a read-only boundary, respecting a cloned design system you cannot edit.">
+  <meta property="og:url" content="https://happycode.studio/gde-sprint-26-multifolder-public/brunch-club-rsvp-kit/">
+  <meta property="og:site_name" content="2026 Agentic Architect Sprint by Google">
+  <meta property="og:image" content="https://happycode.studio/gde-sprint-26-multifolder-public/brunch-club-rsvp-kit/img/686f9a3ec36badac.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Map and Update a Cross-Repository Brunch Kit with Multi-Folder Project Context">
+  <meta name="twitter:description" content="Map and update five repos at once with an Antigravity 2.0 multi-folder Project and a read-only boundary, respecting a cloned design system you cannot edit.">
+  <meta name="twitter:image" content="https://happycode.studio/gde-sprint-26-multifolder-public/brunch-club-rsvp-kit/img/686f9a3ec36badac.png">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "headline": "Map and Update a Cross-Repository Brunch Kit with Multi-Folder Project Context",
+      "description": "Map and update five repos at once with an Antigravity 2.0 multi-folder Project and a read-only boundary, respecting a cloned design system you cannot edit.",
+      "url": "https://happycode.studio/gde-sprint-26-multifolder-public/brunch-club-rsvp-kit/",
+      "inLanguage": "en",
+      "keywords": "antigravity-2.0, multi-folder, cross-repository, dependency-mapping, web",
+      "author": {
+        "@type": "Person",
+        "name": "evanca"
+      },
+      "isPartOf": {
+        "@type": "Course",
+        "name": "2026 Agentic Architect Sprint by Google",
+        "url": "https://happycode.studio"
+      },
+      "image": "https://happycode.studio/gde-sprint-26-multifolder-public/brunch-club-rsvp-kit/img/686f9a3ec36badac.png"
+    },
+    {
+      "@type": "HowTo",
+      "name": "Map and Update a Cross-Repository Brunch Kit with Multi-Folder Project Context",
+      "description": "Map and update five repos at once with an Antigravity 2.0 multi-folder Project and a read-only boundary, respecting a cloned design system you cannot edit.",
+      "totalTime": "PT47M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Prepare Antigravity 2.0"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Assemble the Multi-Folder Workspace"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Create a Multi-Folder Antigravity Project"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Define the Boundary in the Project Configuration"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Map Dependencies with Parallel Scout Subagents"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Run the Master Cross-Repository Task"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Inspect the Cross-Repository Changeset"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "Verify the Kit"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 9,
+          "name": "Congratulations"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "2026 Agentic Architect Sprint by Google",
+          "item": "https://happycode.studio"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Map and Update a Cross-Repository Brunch Kit with Multi-Folder Project Context",
+          "item": "https://happycode.studio/gde-sprint-26-multifolder-public/brunch-club-rsvp-kit/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+  <style id="cl-prompt-plain">
+    /* Render ```text blocks (prompts, trees) as plain monospace, not syntax-colored. */
+    pre code[class*="language-text"] span { color: inherit !important; background: transparent !important; font-weight: inherit !important; font-style: inherit !important; }
+  </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QVZ48SGNV9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QVZ48SGNV9');
+  </script>
+
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Map and Update a Cross-Repository Brunch Kit with Multi-Folder Project Context</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="brunch-club-rsvp-kit"
+                  title="Map and Update a Cross-Repository Brunch Kit with Multi-Folder Project Context"
+                  environment="web"
+                  feedback-link="https://github.com/evanca/gde-sprint-26-multifolder-public/issues">
+    
+      <google-codelab-step label="Introduction" duration="4">
+        <p>This codelab is part of the <strong>2026 Agentic Architect Sprint by Google</strong>.</p>
+<p>Agentic workflows need clear boundaries — around an agent&#39;s <em>context</em>, its <em>filesystem</em>, and the repositories it is allowed to touch. This codelab teaches that third boundary: <strong>structured multi-folder, cross-repository project context</strong> in <strong>Antigravity 2.0</strong> — including a cloned repository you may read but must never change.</p>
+<h2 is-upgraded>The starting point</h2>
+<p>The <strong>Brunch Club RSVP Kit</strong> is a small brunch RSVP system split across five interdependent repositories you own, plus one external dependency it consumes:</p>
+<table>
+<tr><td colspan="1" rowspan="1"><p>Repository</p>
+</td><td colspan="1" rowspan="1"><p>Role</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><code>brunch-shared-schema</code></p>
+</td><td colspan="1" rowspan="1"><p>the contract every theme must satisfy (<code>brunch-theme.schema.json</code> + a tiny validator)</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><code>brunch-content-data</code></p>
+</td><td colspan="1" rowspan="1"><p><code>themes.json</code> — the theme data</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><code>brunch-frontend</code></p>
+</td><td colspan="1" rowspan="1"><p>a static site that renders theme cards from the data</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><code>brunch-tests</code></p>
+</td><td colspan="1" rowspan="1"><p><code>node:test</code> contract tests, no dependencies</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><code>brunch-docs</code></p>
+</td><td colspan="1" rowspan="1"><p><code>THEMES.md</code></p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><code>open-color</code></p>
+</td><td colspan="1" rowspan="1"><p><strong>external, read-only</strong> — you clone the real open-source <a href="https://github.com/yeun/open-color" target="_blank">Open Color</a> repo for its design tokens; you consume it but do not own it</p>
+</td></tr>
+</table>
+<p>It works today: the frontend renders a card per theme, every theme is validated against the shared contract, and each card&#39;s accent color is a <strong>real Open Color token</strong> (for example <code>--oc-pink-2</code>) named in the data.</p>
+<h2 is-upgraded>The problem</h2>
+<p>Your task sounds trivial: <em>add one new brunch theme, &#34;Pearl Pancake Morning.&#34;</em> But in a multi-repo system that one change has a precise blast radius:</p>
+<ul>
+<li>it must land in the <strong>data</strong>, and stay in sync in the <strong>tests</strong> and <strong>docs</strong>;</li>
+<li>its accent color must be a <strong>real Open Color token</strong> — you <strong>read</strong> that cloned repo to pick one, but you must <strong>never modify it</strong>;</li>
+<li>it must <strong>not</strong> touch the <strong>shared contract</strong> or the <strong>contract-driven frontend</strong>, which already handle a new theme automatically.</li>
+</ul>
+<p>Touch too few repos and the tests or docs fall out of sync. Touch too many and you corrupt the contract, hand-edit a frontend that updates itself, or commit to a dependency you don&#39;t own. The hard part isn&#39;t writing the theme — it&#39;s knowing <strong>exactly which repos a change touches, which it must not, and which you are not even allowed to.</strong> An agent confined to a single folder cannot see that whole graph.</p>
+<h2 is-upgraded>How Antigravity helps</h2>
+<p>You give one agent a <strong>multi-folder Project</strong> spanning all six folders, lock the cloned dependency to <strong>read-only</strong> with a <strong>custom project configuration</strong>, send <strong>parallel report-only scout subagents</strong> to map the blast radius, then let one master agent execute exactly that map — and prove what it left untouched.</p>
+<h2 is-upgraded>What You Will Build</h2>
+<p>A consistent, contract-valid update to the kit after adding one theme:</p>
+<p class="image-container"><img alt="The finished Brunch Club RSVP Kit rendering four themes, each with a real Open Color accent, including the new Pearl Pancake Morning card" src="img/686f9a3ec36badac.png"></p>
+<ul>
+<li><code>brunch-content-data</code> gains the new theme, with an accent token read from Open Color.</li>
+<li><code>brunch-tests</code> fixtures recognize it and pass.</li>
+<li><code>brunch-docs</code> documents it.</li>
+<li><code>brunch-shared-schema</code> and <code>brunch-frontend</code> are correctly left <strong>unchanged</strong>.</li>
+<li><code>open-color</code> is <strong>read, never written</strong> — enforced by your project configuration.</li>
+</ul>
+<h2 is-upgraded>What You Will Learn</h2>
+<ul>
+<li>How to define a multi-folder Project that spans real repository boundaries plus a cloned external dependency.</li>
+<li>How a <strong>custom project configuration</strong> makes one repo <strong>read-only</strong>, turning the folder set into a structured, enforced cross-repository boundary.</li>
+<li>How to map full-stack dependencies before editing anything.</li>
+<li>How a master agent propagates one change across data, tests, and docs while conforming to a read-only upstream.</li>
+<li>How to use parallel, report-only scout subagents to inspect each repo first.</li>
+<li>How to recognize which repos a change does <strong>not</strong> touch — and which you are not allowed to touch — and prove it.</li>
+<li>How to verify a cross-repo change with contract tests and the served app.</li>
+</ul>
+<h2 is-upgraded>Cost and Scope</h2>
+<p>This lab uses one bounded master task and optional report-only scout subagents that do not edit files. There is no dependency installation beyond a shallow Git clone, and no duplicate single-agent run. Keep scout reports concise and stop after the contract tests pass and the new card renders.</p>
+<p>Target duration: <strong>35–45 minutes</strong>.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Prepare Antigravity 2.0" duration="4">
+        <h2 is-upgraded>Step 1: Install Antigravity 2.0</h2>
+<p>Download and install Antigravity 2.0 from:</p>
+<p><a href="https://antigravity.google/download" target="_blank">antigravity.google/download</a></p>
+<p>Follow the current onboarding and sign-in flow shown by the application.</p>
+<aside class="warning"><p> Use the current official documentation for installation and sign-in. This codelab does not substitute CLI login commands for the Antigravity 2.0 app workflow. </p>
+</aside>
+<h2 is-upgraded>Step 2: Choose a Supported Sign-In Path</h2>
+<p>Choose the path available to you:</p>
+<ul>
+<li><strong>Recommended quick path:</strong> Sign in normally with your Google Account through the app onboarding flow.</li>
+<li><strong>Optional enterprise path:</strong> Use Antigravity through the Gemini Enterprise Agent Platform if your organization provides it.</li>
+</ul>
+<p>If you use the enterprise path, ask your administrator to complete the documented setup:</p>
+<ol type="1">
+<li>Create or select a Google Cloud project with billing enabled.</li>
+<li>Enable the Agent Platform API: <code>aiplatform.googleapis.com</code>.</li>
+<li>Grant administrators enabling services <code>roles/serviceusage.serviceUsageAdmin</code>.</li>
+<li>Grant Antigravity users <code>roles/aiplatform.user</code>.</li>
+</ol>
+<p>The enterprise guide documents supported Antigravity endpoints as <code>global</code>, <code>eu</code>, and <code>us</code>. Follow your organization&#39;s selected configuration.</p>
+<p>Official reference: <a href="https://antigravity.google/docs/enterprise" target="_blank">Use Antigravity with Gemini Enterprise Agent Platform</a></p>
+<h2 is-upgraded>Step 3: Confirm Prerequisites</h2>
+<p>This codelab requires Node.js 20+ to run the contract tests and Python 3 to serve the static frontend.</p>
+<pre><code language="language-bash" class="language-bash">node --version
+python3 --version
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Assemble the Multi-Folder Workspace" duration="5">
+        <p>The kit lives in <code>workspace/</code>. The five <code>brunch-*</code> folders are <strong>separate repositories</strong> you own. The kit also depends on <strong>Open Color</strong> — a real open-source design-tokens repo — for its accent colors; you will <strong>clone</strong> that repo into the workspace and treat it as read-only.</p>
+<p>Pull down just the <code>workspace/</code> folder with a sparse checkout:</p>
+<pre><code language="language-bash" class="language-bash">git clone --no-checkout --depth 1 https://github.com/evanca/gde-sprint-26-multifolder-public.git
+cd gde-sprint-26-multifolder-public
+git sparse-checkout init --cone
+git sparse-checkout set workspace
+git checkout
+cd workspace
+</code></pre>
+<p>The <code>workspace/</code> folder holds your five sibling repos:</p>
+<pre><code language="language-text" class="language-text">workspace/
+├── brunch-shared-schema/    # the contract (brunch-theme.schema.json + validate.mjs)
+├── brunch-content-data/     # themes.json
+├── brunch-frontend/         # static site; renders cards and applies accent tokens
+├── brunch-tests/            # node:test contract tests, no dependencies
+└── brunch-docs/             # THEMES.md
+</code></pre>
+<p>Initialize <strong>each</strong> of your five <code>brunch-*</code> folders as its own disposable Git repository, so the agent maps and diffs real, independent repository boundaries:</p>
+<pre><code language="language-bash" class="language-bash">for repo in brunch-shared-schema brunch-content-data brunch-frontend brunch-tests brunch-docs; do
+  ( cd &#34;$repo&#34; &amp;&amp; git init -q &amp;&amp; git add . &amp;&amp; git commit -q -m &#34;Initial $repo&#34; )
+done
+</code></pre>
+<p>Now <strong>clone the external Open Color dependency</strong> into the workspace. This is the repo you consume but don&#39;t own — you read its tokens, you never change it:</p>
+<pre><code language="language-bash" class="language-bash">git clone --depth 1 https://github.com/yeun/open-color
+</code></pre>
+<p class="image-container"><img alt="Cloning the external Open Color repo into the workspace" src="img/2687622b2a4c4bb9.gif"></p>
+<p>The workspace now has six folders: your five repos plus <code>open-color</code>. Confirm the starter is green and self-consistent before involving an agent:</p>
+<pre><code language="language-bash" class="language-bash">cd brunch-tests
+node --test
+cd ..
+</code></pre>
+<p>The suite includes a check that every theme&#39;s accent is a real token defined in <code>open-color/open-color.css</code> — the kit genuinely depends on that cloned repo.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Create a Multi-Folder Antigravity Project" duration="4">
+        <p>Antigravity agents reason within a <strong>Project</strong>. A multi-folder Project lets one agent hold all six folders — your five repos plus the cloned dependency — as a single cross-repository context instead of being limited to one folder.</p>
+<ol type="1">
+<li>Open Antigravity 2.0.</li>
+<li>Click the folder <code>+</code> control.</li>
+<li>Choose <strong>New Project</strong>.</li>
+<li>Choose <strong>Add Folder(s)</strong> and select <strong>all six</strong> folders inside the <code>workspace/</code> directory: the five <code>brunch-*</code> repos and <code>open-color</code>.</li>
+<li>Choose <strong>Create</strong>, then confirm the project lists every folder.</li>
+</ol>
+<p class="image-container"><img alt="A single Antigravity 2.0 Project holding the five brunch repos plus the cloned open-color repo" src="img/17c040324cab6671.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Define the Boundary in the Project Configuration" duration="4">
+        <p>You just cloned <code>open-color</code> for context — but by default the agent could <strong>write</strong> to it like any other project folder, and you must never modify a repo you don&#39;t own. Make the boundary explicit with a <strong>custom project configuration</strong>.</p>
+<p>Open <strong>Settings</strong>, select this project (<code>brunch-club-rsvp-kit</code>) under <strong>Projects</strong>, and configure:</p>
+<ol type="1">
+<li><strong>Agent Settings → Security Preset.</strong> This is the project&#39;s file-access and terminal policy. Keep it on <strong>Default</strong> — on Default the agent can only read and write <strong>within the project&#39;s folders</strong>, so it is already confined to your six folders. (The <strong>Full Machine</strong> and <strong>Unrestricted</strong> presets would grant whole-machine access and dissolve the boundary.)</li>
+<li><strong>Local Permissions → File Access Rules.</strong> Under <strong>File Writes</strong>, click <strong>Add</strong>, choose <strong>Deny</strong>, and enter the folder name <strong><code>open-color</code></strong>. Now the agent can <em>read</em> Open Color (to choose a valid accent token) but can never <em>write</em> it — the cloned dependency is locked.</li>
+</ol>
+<p class="image-container"><img alt="The project&amp;rsquo;s Local Permissions, where File Access Rules and other policies live" src="img/5c186aac37764555.png"></p>
+<p>This is the lab&#39;s custom project configuration: the folder set plus a deny-write rule turns six open folders into a <strong>structured cross-repository boundary</strong> with a read-only zone the agent cannot cross.</p>
+<p class="image-container"><img alt="The project&amp;rsquo;s File Access Rules with a File Writes Deny rule on the cloned open-color folder" src="img/ec702578634c9289.png"></p>
+<aside class="special"><p> Antigravity may relabel these controls between releases. Match the current <a href="https://antigravity.google/docs/getting-started" target="_blank">Antigravity 2.0 getting started</a> guide; the goal is to make <code>open-color</code> read-only while the five brunch repos stay writable. </p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Map Dependencies with Parallel Scout Subagents" duration="7">
+        <p>Before any edit, inspect each folder. Send the master agent this request:</p>
+<pre><code language="language-text" class="language-text">We have a multi-folder project with five Brunch Club repos — brunch-shared-schema,
+brunch-content-data, brunch-frontend, brunch-tests, and brunch-docs — plus one
+external, read-only dependency: open-color (a cloned design-tokens repo we consume
+but must not modify).
+
+Launch one report-only scout subagent per folder and run them in parallel. Each
+scout inspects only its own folder and returns at most 6 bullets covering:
+- what the folder owns
+- which other folders it depends on or is depended on by
+- exactly what adding a new brunch theme would require here (including
+  &#34;no change needed&#34; or &#34;read-only, must not change&#34; with a reason)
+
+The scouts must only report findings. They must not edit any file.
+
+After all scouts return, produce a single cross-repo dependency map that lists,
+per folder, the precise change needed to add one theme.
+</code></pre>
+<p class="image-container"><img alt="Sending the report-only scout request to the master agent" src="img/7f65af3da8b4ab55.png"></p>
+<p>While the request runs, observe Antigravity 2.0:</p>
+<ul>
+<li>Confirm the scouts run concurrently, one per folder.</li>
+<li>Confirm each scout reports on only its own folder.</li>
+<li>Read the consolidated dependency map.</li>
+</ul>
+<p class="image-container"><img alt="Parallel report-only scout subagents, one per folder, inspecting their own folder" src="img/fbcb81f26d49dbd0.png"></p>
+<p>The map should conclude that <strong><code>open-color</code></strong></p>
+<p><strong> is read-only</strong> (the source of accent tokens, not something to change), that <strong><code>brunch-shared-schema</code></strong></p>
+<p><strong> needs no change</strong> (the contract already allows the theme), and that <strong><code>brunch-frontend</code></strong></p>
+<p><strong> needs no change</strong> (it applies the accent from data automatically). The real edits land in <code>brunch-content-data</code>, <code>brunch-tests</code>, and <code>brunch-docs</code>.</p>
+<p class="image-container"><img alt="The agent&amp;rsquo;s cross-repository dependency map diagram" src="img/341b2676a10743dc.png"></p>
+<p class="image-container"><img alt="The dependency map as a per-folder table: what changes, what stays no-change, and open-color read-only" src="img/ae943601d6fc5530.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Run the Master Cross-Repository Task" duration="8">
+        <p>Now give the master agent the single task. It must read Open Color to pick a real accent token, and stay out of the repos it should not touch.</p>
+<pre><code language="language-text" class="language-text">Using the cross-repo dependency map, add one new brunch theme across the repos
+that need it. Do not edit a repo that does not need a change, and never modify
+the read-only open-color dependency. For each folder, state whether you changed
+it and why.
+
+New theme:
+- id: pearl-pancake-morning
+- name: Pearl Pancake Morning
+- tagline: Soft pearl-white pancakes and gentle florals.
+- host: Yuki Tanaka
+- capacity: 10
+- menu: Buttermilk pearl pancakes; Vanilla cream with white peach; Jasmine milk tea
+- accent: read open-color/open-color.css and choose a REAL token whose color
+  suits &#34;soft pearl-white, gentle florals&#34; (a soft pink or near-white, e.g. an
+  --oc-pink-* token). Do not invent a token.
+
+Requirements:
+- brunch-content-data: add the theme to themes.json so it still validates against
+  brunch-shared-schema/brunch-theme.schema.json, using the accent token you chose.
+- brunch-tests: update fixtures so the suite recognizes the new theme, then run
+  `node --test` in brunch-tests until it is green.
+- brunch-docs: add the theme to THEMES.md (summary table and a section), including its accent.
+- brunch-shared-schema: change only if the new theme cannot be expressed by the
+  current contract. Explain your decision.
+- brunch-frontend: change only if it does not render the theme automatically.
+  Confirm whether it is contract-driven before editing.
+- open-color: read-only. Read it to pick the accent token; do not modify it.
+
+Finish with a summary listing each folder, whether it changed, and the reason.
+</code></pre>
+<p class="image-container"><img alt="Sending the master cross-repository task to the agent" src="img/b68d3f20898a93a.png"></p>
+<p>While the request runs, confirm the agent:</p>
+<ul>
+<li>Reads <code>open-color</code> to choose the accent token, and does <strong>not</strong> write to it.</li>
+<li>Edits <code>brunch-content-data</code>, <code>brunch-tests</code>, and <code>brunch-docs</code>.</li>
+<li>Leaves <code>brunch-shared-schema</code> and <code>brunch-frontend</code> untouched, with a reason.</li>
+<li>Runs <code>node --test</code> and reaches a green suite.</li>
+</ul>
+<p class="image-container"><img alt="The master task propagating one theme across content, tests, and docs, with a per-repo summary of what changed and why — and open-color left read-only" src="img/d1e54c5701dca638.png"></p>
+<h2 is-upgraded>Why This Structure Matters</h2>
+<p>A single-folder agent would either miss the test fixture and docs, blindly edit the frontend, or invent a fake color instead of reading the real tokens — and nothing would stop it from committing to the upstream repo you cloned. Cross-repository context plus a read-only boundary lets the agent trace the shared contract, read the cloned dependency, and act only where the dependency graph allows — the essence of full-stack dependency mapping.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Inspect the Cross-Repository Changeset" duration="5">
+        <p>Confirm the change landed in exactly the right repos. Because each <code>brunch-*</code> folder is its own repository, inspect them one at a time. From the <code>workspace/</code> root:</p>
+<pre><code language="language-bash" class="language-bash">for repo in brunch-shared-schema brunch-content-data brunch-frontend brunch-tests brunch-docs; do
+  echo &#34;== $repo ==&#34;
+  ( cd &#34;$repo&#34; &amp;&amp; git status --short )
+done
+</code></pre>
+<p>Confirm that:</p>
+<ul>
+<li><code>brunch-content-data/themes.json</code> contains the new theme, with an <code>accent</code> that is a real Open Color token, and still has the required fields and no extras.</li>
+<li><code>brunch-tests</code> fixtures include <code>pearl-pancake-morning</code>.</li>
+<li><code>brunch-docs/THEMES.md</code> lists the theme in the table and as a section.</li>
+<li><code>brunch-shared-schema</code> is unchanged.</li>
+<li><code>brunch-frontend</code> is unchanged.</li>
+<li><code>open-color</code> is unchanged — and your File Writes Deny rule would have refused any attempt to change it.</li>
+</ul>
+<p>Do not continue until the agent can explain why the schema, the frontend, and the cloned dependency did not change.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Verify the Kit" duration="5">
+        <p>Run the contract tests from the <code>workspace/</code> root:</p>
+<pre><code language="language-bash" class="language-bash">cd brunch-tests
+node --test
+cd ..
+</code></pre>
+<p>All tests should pass, including the data-validates-against-schema check, the expected-theme-ids check, and the check that every theme&#39;s accent is a real Open Color token.</p>
+<p>Serve the frontend from the <code>workspace/</code> root so cross-folder relative paths resolve:</p>
+<pre><code language="language-bash" class="language-bash">python3 -m http.server 8000
+</code></pre>
+<p>Open <code>http://localhost:8000/brunch-frontend/</code> and verify:</p>
+<ol type="1">
+<li>A <strong>Pearl Pancake Morning</strong> card appears with its tagline, host, and menu.</li>
+<li>Its accent color (top border and title dot) matches the Open Color token you chose.</li>
+<li>The result count reflects four themes.</li>
+<li>The mock RSVP button toggles seats for the new card.</li>
+<li>The browser console reports no errors.</li>
+</ol>
+<p class="image-container"><img alt="The served frontend showing the new Pearl Pancake Morning card with its Open Color accent, alongside the existing themes" src="img/686f9a3ec36badac.png"></p>
+<p>If a check fails, send one narrow correction request to the master agent, then repeat only the failed check. Compare with <code>reference/</code> only if needed.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Congratulations" duration="1">
+        <p>You used an Antigravity 2.0 multi-folder Project to give one agent a real cross-repository view, cloned an external dependency and made it read-only with a custom project configuration, mapped full-stack dependencies with parallel scout subagents, and propagated a single change across exactly the repos that needed it — while correctly leaving the shared contract and contract-driven frontend untouched and never modifying the cloned upstream repo.</p>
+<p class="image-container"><img alt="The finished Brunch Club RSVP Kit rendering four themes, each with a real Open Color accent, including the new Pearl Pancake Morning card" src="img/686f9a3ec36badac.png"></p>
+<p>You learned:</p>
+<ul>
+<li>Multi-folder Projects span real repository boundaries, not just folders — including dependencies you clone but don&#39;t own.</li>
+<li>A custom project configuration — the folder set, the security preset, and a read-only File Writes rule — turns those folders into a structured, enforced cross-repository boundary.</li>
+<li>Dependency mapping precedes editing in a cross-repo change.</li>
+<li>Parallel report-only scouts inspect repos without competing edits.</li>
+<li>The strongest cross-repo skill is knowing what <em>not</em> to change — and what you <em>can&#39;t</em> change — and proving it.</li>
+<li>Contract tests and a served app verify the change end to end.</li>
+</ul>
+<p>That completes this sprint&#39;s set of agent boundaries: context, filesystem, and now cross-repository scope — one agent across many repos, with the judgment to change only what a task needs.</p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>

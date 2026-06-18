@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Brunch Theme Contract",
+  "description": "Shared contract for a single brunch theme. Consumed by brunch-content-data, brunch-frontend, brunch-tests, and brunch-docs.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$",
+        "description": "Stable kebab-case identifier used as the cross-repo key."
+      },
+      "name": { "type": "string", "minLength": 1 },
+      "tagline": { "type": "string", "minLength": 1 },
+      "host": { "type": "string", "minLength": 1 },
+      "capacity": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Maximum number of RSVP seats."
+      },
+      "menu": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "type": "string", "minLength": 1 }
+      },
+      "accent": {
+        "type": "string",
+        "pattern": "^--[a-z0-9-]+$",
+        "description": "Name of an Open Color token (external, read-only), e.g. --oc-pink-2. The frontend applies it as the card accent; brunch-tests checks it exists in open-color/open-color.css."
+      }
+    },
+    "required": ["id", "name", "tagline", "host", "capacity", "menu", "accent"]
+  }
+}
